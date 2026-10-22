@@ -3,40 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spidy</title>
+    <title>Spidy — Sign Up</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="Container">
+    <div class="container">
+        
+        <!-- Left Banner / Image Sidebar -->
         <div class="left-side">
-            <img class="main-image" src="assets/hector-reyes-unsplash.jpg" alt="spiderman image">
-            <img class="logo" src="assets/spdman.svg" alt="logo" width="50px">
-            <span>Spidy</span>
-            </div>
-        </div>
-        <div class="right-side">
-            <p>With great power comes great responsibility. join our Spider-Man fan club and swing into action with fellow heroes today!</p>
-            <p>You know you want to.</p>
-            <div class="middle">let's do it</div>
-            <form action="">
-                <label for="first-name">First Name *:</label>
-                <input type="text" name="fname" id="first-name" required>
-                <label for="last-name">Last Name *:</label>
-                <input type="text" name="lname" id="last-name" required>
-                <label for="email">Email *:</label>
-                <input type="email" name="email" id="email" required>
-                <label for="phone">Phone Number *:</label>
-                <input type="tel" name="phone" id="phone" required>
-                <label for="pwd">Password *:</label>
-                <input type="password" name="password" id="pwd" required>
-                <label for="confirm-pwd">Confirm Password *:</label>
-                <input type="password" name="confirm-password" id="confirm-pwd" required>
+    <img class="bg-img" src="assets/hector-reyes-unsplash.jpg" alt="background image">
+    
+    <!-- Center Banner Overlay -->
+    <div class="logo-banner">
+        <img class="logo-img" src="assets/spdman.svg" alt="Spidy logo">
+        <span class="logo-text">SPIDY</span>
+    </div>
 
-                <button type="submit">CREATE AN ACCOUNT</button>
-                <p>Already have an account?</p>
-                <span><a href="#">Log in</a></span>
-            </form>
-        </div>
+    <p class="photo-credit">Photo by Hector Reyes on Unsplash</p>
+</div>
+
+        <!-- Right Side Form Area -->
+        <div class="right-side">
+            
+            <div class="intro-text">
+                <p>With great power comes great responsibility. Join our Spider-Man fan club and swing into action with fellow heroes today!</p>
+                <p>You know you want to.</p>
+            </div>
+
+            <div class="form-container">
+                <h2>Let's do it!</h2>
+                
+                <form action="#" method="POST">
+                    <div class="form-row">
+                        <div class="input-group">
+                            <label for="first-name">FIRST NAME</label>
+                            <input type="text" name="fname" id="first-name" placeholder="Peter" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="last-name">LAST NAME</label>
+                            <input type="text" name="lname" id="last-name" placeholder="Parker" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="input-group">
+                            <label for="email">EMAIL</label>
+                            <input type="email" name="email" id="email" placeholder="spidey@avengers.com" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="phone">PHONE NUMBER</label>
+                            <input type="tel" name="phone" id="phone" placeholder="123-456-7890">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="input-group">
+                            <label for="pwd">PASSWORD</label>
+                            <input type="password" name="password" id="pwd" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="confirm-pwd">CONFIRM PASSWORD</label>
+                            <input type="password" name="confirm-password" id="confirm-pwd" required>
+                        </div>
+                    </div>
+
+                    <div class="action-area">
+                        <button type="submit" class="submit-btn">Create Account</button>
+                        <p class="login-text">Already have an account? <a href="#">Log in</a></p>
+                    </div>
+                </form>
+            </div>
+
         </div>
 
     </div>
