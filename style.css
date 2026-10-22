@@ -78,3 +78,27 @@ body {
     color: rgba(255, 255, 255, 0.7);
     font-size: 0.75rem;
 }
+
+/* Right side setup*/
+.right-side {
+    min-height: calc(100vh + 80px);
+    box-sizing: border-box;
+    padding-bottom:80px;
+}
+.intro-text {
+    min-width:0;
+    background-color: rgba(19, 16, 16, 0.1);
+    padding-bottom:30px;
+    padding-top:20px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+.intro-text > p {
+    padding-right:10%;
+    font-size:25px;
+    display:block;
+    margin-left: 30px;
+}
+.intro-text p:first-child {
+    margin-top: 2.2rem;
+    margin-bottom: 0;
+}
