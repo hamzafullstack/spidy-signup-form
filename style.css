@@ -22,7 +22,7 @@ body {
 
 .left-side {
     position: relative;
-    flex: 0 0 30%; /* Total width ka 30% space lega */
+    flex: 0 0 40%; /* Total width 40% space */
     display: flex;
     flex-direction: column;
     justify-content: center; /* Logo banner ko vertically exact center mein rakhega */
@@ -52,7 +52,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 12px;
-    transform: translateY(89px); 
+    transform: translateY(87px); 
 }
 
 /* Logo image styling */
@@ -85,7 +85,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #f9fafb; /* Light neutral gray */
+    background-color: #f9fafb;
     padding: 3rem 4rem;
 }
 
@@ -154,12 +154,12 @@ body {
 
 /* Focus and Validation States */
 .input-group input:focus {
-    border-color: #e11d48; /* Red highlight for Spidy theme */
+    border-color: #e11d48;
     box-shadow: 0 0 0 3px rgba(225, 29, 72, 0.15);
 }
 
 .input-group input:user-invalid {
-    border-color: #dc2626; /* Red border on invalid input */
+    border-color: #dc2626;
 }
 
 /* Action Area & Submit Button */
@@ -172,7 +172,7 @@ body {
 }
 
 .submit-btn {
-    background-color: #e11d48; /* Spider-Man Red */
+    background-color: #e11d48;
     color: #ffffff;
     border: none;
     padding: 0.8rem 2rem;
