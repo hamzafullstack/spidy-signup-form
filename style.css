@@ -12,7 +12,7 @@ body {
     display: flex;
     align-items: stretch;
     min-height: 100vh;
-    font-family: system-ui, -apple-system, sans-serif;
+    font-family: 'Inter', system-ui, sans-serif;
 }
 .container {
     display: flex;
@@ -22,7 +22,7 @@ body {
 
 .left-side {
     position: relative;
-    flex: 0 0 40%; /* Total width 40% space */
+    flex: 0 0 35%; /* Total width 35% space */
     display: flex;
     flex-direction: column;
     justify-content: center; /* Logo banner ko vertically exact center mein rakhega */
@@ -204,4 +204,11 @@ body {
 
 .login-text a:hover {
     text-decoration: underline;
+}
+
+.logo-text, 
+.form-container h2 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 3px;
+    font-size: 2.8rem;
 }
